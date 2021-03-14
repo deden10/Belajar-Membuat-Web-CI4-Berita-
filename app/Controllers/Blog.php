@@ -26,6 +26,10 @@ class Blog extends Controller
         $data['riwayat'] = $this->post->getRiwayat(5);
 		return view('blog',$data);
     }
+    public function create()
+    {
+        
+    }
 	
 
 }
